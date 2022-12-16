@@ -15,7 +15,7 @@ int main()
         int forSpaces = (n - line);
         for (int i = 0; i < forSpaces; i++)
         {
-            cout << " ";
+            cout << ".";
         }
 
         // for character
@@ -34,7 +34,7 @@ int main()
         int spaces = line - n;
         for (int i = 0; i < spaces; i++)
         {
-            cout << " ";
+            cout << ".";
         }
         // for character
         int forchar = 2 * (2 * n - line) - 1;
