@@ -22,19 +22,29 @@ int main()
             cout << "num3 is maximux in above numbers!";
         }
     }
-    else if (num2>num3)
-    {
-        cout<<"num2 is maximum in above numbers! ";
-    }
-    else if(num3>num1)
-    {
-        cout<<"num3 is maximum in above numbers! ";
-    }
     else
     {
-        cout<<"All numbers are same!!";
+        if (num2 > num3)
+        {
+            cout << "num2 is maximum in the above numbers!";
+        }
+        else
+        {
+            cout << "num3 is maxumum in the above numbers!";
+        }
     }
-    
+    // else if (num2>num3)
+    // {
+    //     cout<<"num2 is maximum in above numbers! ";
+    // }
+    // else if(num3>num1)
+    // {
+    //     cout<<"num3 is maximum in above numbers! ";
+    // }
+    // else
+    // {
+    //     cout<<"All numbers are same!!";
+    // }
 
     return 0;
 }
