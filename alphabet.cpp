@@ -25,6 +25,23 @@ int main()
         }
         cout << endl;
     }
+    for (int line = n+1; line <= 2*n-1; line++)
+    {
+        int numberOfSpace=(line-n);
+        for (int k = 0; k < numberOfSpace; k++)
+        {
+            cout<<" ";
+        }
+        int numberOfChar=2*(2*n-line)-1;
+        for (int j = 0; j < numberOfChar; j++)
+        {
+            char ch = (char)('A'+j);
+            cout<<ch;
+        }
+        
+        cout<<endl;
+    }
+    
 
     return 0;
 }
