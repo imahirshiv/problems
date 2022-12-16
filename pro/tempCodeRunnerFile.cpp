@@ -1,0 +1,1 @@
+   cout<<myarray[j];
