@@ -5,10 +5,7 @@ int additon(int a, int b)
     int sum = a + b;
     return sum;
 }
-void fun(string name)
-{
-    cout << "Are You having fun?!!1" << name << "?!" << endl;
-}
+void fun(string x);
 int main()
 {
 
@@ -20,4 +17,8 @@ int main()
     cout << additon(a, b) << endl;
     fun("Ahir Shiv");
     return 0;
+}
+void fun(string name)
+{
+    cout << "Are You having fun?!!1" << name << "?!" << endl;
 }
