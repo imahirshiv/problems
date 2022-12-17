@@ -10,7 +10,7 @@ int main()
 
     for (int i = 1; i <= 5; i++)
     {
-        cout << sqr(i) << endl;
+        cout << sqr(i) <<" ";
     }
 
     return 0;
