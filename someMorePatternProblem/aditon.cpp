@@ -1,11 +1,8 @@
 #include <iostream>
+#include<math.h>
 using namespace std;
-int additon(int a, int b)
-{
-    int sum = a + b;
-    return sum;
-}
-void fun(string x);
+int addition(int,int);
+void fun(string);
 int main()
 {
 
@@ -14,11 +11,18 @@ int main()
     cin >> a;
     cout << "Entet b: ";
     cin >> b;
-    cout << additon(a, b) << endl;
+    cout << addition(a, b) << endl;
     fun("Ahir Shiv");
     return 0;
 }
 void fun(string name)
 {
     cout << "Are You having fun?!!1" << name << "?!" << endl;
+}
+int addition(int a, int b)
+{
+    int sum = a + b;
+    cout<<sqrt(sum)<<endl;
+    cout<<pow(a,b)<<endl;
+    return sum;
 }
