@@ -13,6 +13,6 @@ int main(){
         sum+=array[i];
     }
     cout<<sum;
-   cout<<endl;
+   cout<<endl; 
     return 0;
 }
