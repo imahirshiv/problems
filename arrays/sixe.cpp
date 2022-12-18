@@ -31,7 +31,11 @@ int main()
     {
         cout<<arr[i]<<endl;
     }
-    
-    
+
+    for(int elm:arr)
+    {
+        cout<<elm<<endl ;
+    }
+
     return 0;
-}
+}   
