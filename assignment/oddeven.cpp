@@ -12,7 +12,6 @@ int count(int arr[], int n)
     }
     return count_odd;
 }
-
 int main()
 {
     int n;
