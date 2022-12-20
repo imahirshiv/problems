@@ -15,15 +15,14 @@ void rev(int array[], int n)
     for (int i = 0; i < n; i++)
     {
         cout << array[i] << "";
+    
     }
-   
-}
-
+    }
 int main()
 {
     int n=5;
     int array[]={5,6,7,8,9};
-    
-    cout << "The reverse array is :" << rev(array, n) << endl;
-    return 0;
+
+    cout<<"The reverse array is :";
+    rev(array,n);
 }
