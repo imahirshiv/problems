@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int rev(int array[], int n)
+void rev(int array[], int n)
 {
     int start = 0;
     int end = n - 1;
@@ -14,9 +14,8 @@ int rev(int array[], int n)
     }
     for (int i = 0; i < n; i++)
     {
-        cout << array[i] << "";
+        cout << array[i] << ",";
     }
-    return false;
 }
 
 int main()
@@ -31,12 +30,14 @@ int main()
         cin >> array[i];
     }
     cout << endl;
-    cout << "Your array is :";
+    cout << "Your array is    :";
     for (int j = 0; j < n; j++)
     {
-        cout << array[j];
+        cout << array[j] << ",";
     }
     cout << endl;
-    cout << "The reverse array is :" << rev(array, n) << endl;
+    cout << "Your rv array is :";
+    rev(array, n);
+    cout << endl;
     return 0;
 }
