@@ -1,4 +1,5 @@
 #include<iostream>
+#include<limits.h>
 using namespace std;
 int value(int array[],int n)
 {
@@ -13,8 +14,6 @@ int value(int array[],int n)
     return missing;
     
 }
-
-
 int main(){
   // taking input size of array
     int n;
