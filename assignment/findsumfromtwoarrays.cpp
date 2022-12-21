@@ -59,7 +59,6 @@ int sumOfGreatestSmallest(int a[], int b[], int n)
     // and return whichever is minimum.
     return min(minB + minA2, minA + minB2);
 }
-
 int main()
 {
     // taking input size of array
@@ -93,9 +92,9 @@ int main()
     {
         cout << b[k] << " ";
     }
-    cout<<endl;
+    cout << endl;
     // calling function and giving value of array1 , array 2 and size of array
-    cout<<"Sum of minimum from both array is : "<< sumOfGreatestSmallest(a, b, n);
-    cout<<endl;
+    cout << "Sum of minimum from both array is : " << sumOfGreatestSmallest(a, b, n);
+    cout << endl;
     return 0;
 }
