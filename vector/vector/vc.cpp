@@ -17,21 +17,25 @@ int main()
     }
     // for loop in vec
     cout << endl;
-    cout<<"For Loop: ";
+    cout << "For Loop: ";
     for (int i = 0; i < n; i++)
     {
         cout << vect[i] << " ";
     }
     cout << endl;
     // for each loop in vec
-    cout<<"Foreach loop: ";
+    cout << "Foreach loop: ";
+
+    vect.insert(vect.begin() + 2, 10);
+
     for (int el : vect)
     {
         cout << el << " ";
     }
     cout << endl;
     // while loop in vec
-    cout<<"While loop: ";
+    vect.erase(vect.end() - 2);
+    cout << "While loop: ";
     int idx = 0;
     while (idx < vect.size())
     {
